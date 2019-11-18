@@ -24,6 +24,10 @@ urlpatterns = [
     path('services/', include('services.urls')),
     #path blog
     path('blog/', include('blog.urls')),
+      #path pages
+    path('page/', include('pages.urls')),
+      #path contact
+    path('contact/', include('contact.urls')),
     # Paths del admin
     path('admin/', admin.site.urls),
 
